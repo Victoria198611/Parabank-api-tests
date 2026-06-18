@@ -1,0 +1,9 @@
+{
+  "name": "GitHub Actions",
+  "type": "CI",
+  "url": "https://github.com/victoria198611/ParabankAPITests/actions",
+  "buildName": "API Tests and Deploy Allure Report",
+  "buildUrl": "https://github.com/victoria198611/ParabankAPITests/actions/runs",
+  "reportUrl": "https://victoria198611.github.io/ParabankAPITests",
+  "executor": "Victoria"
+}
