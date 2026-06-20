@@ -7,3 +7,31 @@
   "reportUrl": "https://victoria198611.github.io/ParabankAPITests",
   "executor": "Victoria"
 }
+
+  {
+    "name": "Environment Blocked",
+    "matchedStatuses": ["skipped"],
+    "messageRegex": ".*Cloudflare.*"
+  },
+  {
+    "name": "Assertion Errors",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*",
+    "traceRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Timeouts",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*Timeout.*",
+    "traceRegex": ".*Timeout.*"
+  },
+  {
+    "name": "Connection Issues",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*Connection.*",
+    "traceRegex": ".*Connection.*"
+  },
+  {
+    "name": "Other Errors",
+    "matchedStatuses": ["failed"]
+  }
