@@ -1,0 +1,1 @@
+[{"values":["QA"],"name":"environment"},{"values":["https://parabank.parasoft.com"],"name":"base.url"},{"values":["Victoria"],"name":"tester"},{"values":["RestAssured + TestNG + Allure"],"name":"framework"},{"values":["17"],"name":"java.version"},{"values":["2.29"],"name":"allure.version"}]
